@@ -1,0 +1,33 @@
+.header {
+    margin-top: 77px;
+    margin-bottom: 183px;
+    font-family:  'Playfair Display', serif;
+
+}
+
+.navigation {
+    text-align: center;
+}
+
+.menu_list {}
+
+.menu_list_item {
+    display: inline-block;
+    margin-right: 95px;
+}
+
+.menu_item_link:last-child {
+    margin-right: 0;
+}
+
+.menu_item_link {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    color: #626262;
+    cursor: pointer;
+}
+
+.menu_item_link:hover {
+    color: rgb(3, 169, 244);
+}

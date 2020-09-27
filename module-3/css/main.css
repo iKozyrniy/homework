@@ -1,0 +1,77 @@
+.main {
+    font-family: 'Playfair Display', serif;
+    color: rgb(98, 98, 98);
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.section {
+    width: 420px;
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: 130px;
+    text-align-last: left;
+}
+
+
+.img1 {
+    width: 420px;
+    height: auto;
+    margin-bottom: 32px;
+  }
+  
+  .img2 {
+    width: 419px;
+    height: 280px;
+    margin-bottom: 32px;
+  }
+  .img3 {
+    width: 422px;
+    height: 280px;
+    margin-bottom: 32px;
+  }
+  .img4 {
+    width: 419px;
+    height: 280px;
+    margin-bottom: 32px;
+  }
+  .img5 {
+    width: 422px;
+    height: auto;
+    margin-bottom: 32px;
+  }
+  .img6 {
+    width: 419px;
+    height: auto;
+    margin-bottom: 32px;
+  }
+
+    
+
+
+
+
+.sub_title {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: 14px;
+    color: rgb(180, 173, 158);
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.title {
+    font-style: 30px;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+.text {
+    font-weight: 400;
+}
+
+.section:nth-child(2n+2) {
+    margin-right: 0;
+} 
