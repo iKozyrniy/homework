@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 28px;
     width: 1200px;
     margin: 30px auto 112px auto;
 
@@ -35,11 +36,18 @@
     font-family: 'Montserrat', sans-serif;
     color: #95E1D3;
     text-transform: uppercase;
+    padding-bottom: 12px;
+    
 }
 
 .menu_item_link:hover {
     color: #f38181;
     border-bottom: 3px solid #f38181;
+    
+
+
+    
+    
 
 
 }
