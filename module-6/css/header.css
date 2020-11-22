@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 935px;
+    margin: 30px auto 112px auto;
+    
+    
+}
+
+.logo {
+    font-size: 26px;
+    color: #FED136;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+.menu {
+    width: 480px;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.link {
+    text-transform: uppercase;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link:hover {
+    color: #FED136;
+}
+
+
+
