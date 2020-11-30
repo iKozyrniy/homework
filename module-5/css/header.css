@@ -55,5 +55,35 @@
 
 .menu_item_link:hover {
     color: #f38181;
-    border-bottom: 3px solid #f38181;
+}
+
+.menu_list_item {
+    position: relative;
+    display: inline-block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 22.5%;
+    list-style: none;
+    background-color: blue;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.menu_list_item:hover > .submenu {
+    display: block;
+}
+
+.submenu_item {
+    white-space: nowrap;
+}
+
+.menu_list_item > a,
+.submenu_item > a {
+  display: inline-block;
+  padding: 15px; 
+  background-color: #fff;
+  text-decoration: none;
 }
