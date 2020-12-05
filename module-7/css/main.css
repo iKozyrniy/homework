@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .main {}
 
 .our_team {
@@ -222,4 +223,230 @@
     cursor: pointer;
     border-radius: 40px;
     margin-bottom: 139px;
+=======
+.main {}
+
+.our_team {
+    padding: 68px 1rem 58px 1rem;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    .our_team {
+        padding: 72px 2rem 58px 2rem;
+    }
+}
+
+.our_team_title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: #333;
+}
+
+@media screen and (min-width: 768px) {
+    .our_team_title {
+        margin-bottom: 30px;
+    }
+}
+
+.our_team_wrapper_card {
+    margin: 0 auto 29px auto;
+}
+
+@media screen and (min-width: 768px) {
+    .our_team_wrapper_card {
+        width: 460px;
+        margin-bottom: 39px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin: 0 auto 39px auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .our_team_wrapper_card {
+        width: 920px;
+    }
+}
+
+.our_team_card {
+    margin: 0 auto 28px auto;
+    width: 217px;
+}
+
+@media screen and (min-width: 768px) {
+    .our_team_card {
+        
+        margin-bottom: 58px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .our_team_card {
+        margin-bottom: 0;
+    }
+}
+
+.order1 {}
+
+
+.order2 {}
+
+@media screen and (min-width: 768px) {
+    .order2 {
+        order: 2;
+    }
+}
+
+.order3 {}
+
+@media screen and (min-width: 768px) {
+    .order3 {
+        order: 1; 
+    }
+}
+
+.order4 {}
+
+@media screen and (min-width: 768px) {
+    .order4 {
+        order: 3;
+    }
+}
+
+.our_team_card:nth-child(3n) {
+    margin-bottom: 0;
+}
+
+.our_team_card:last-child {
+    margin-bottom: 0;
+}
+
+.our_team_img_wrapper1 {
+    background-image: url(../img/person1.png);
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto 20px auto;
+}
+
+.our_team_img_wrapper2 {
+    background-image: url(../img/person2.png);
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto 20px auto;
+}
+
+.our_team_img_wrapper3 {
+    background-image: url(../img/person3.png);
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto 20px auto;
+}
+
+.our_team_img_wrapper4 {
+    background-image: url(../img/person4.png);
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto 20px auto;
+}
+
+.our_team_icon_wrapper1 {
+    width: 33px;
+    height: 33px;
+    background-color: #ff4e50;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.our_team_icon_wrapper2 {
+    width: 33px;
+    height: 33px;
+    background-color: #ffa507;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.our_team_icon_wrapper3 {
+    width: 33px;
+    height: 33px;
+    background-color: #1cd7ad;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.our_team_icon_wrapper4 {
+    width: 33px;
+    height: 33px;
+    background-color: #4e73db;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.our_team_icon {}
+
+.our_team_card_title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 16px;
+}
+
+.our_team_card_text {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+}
+
+.our_team_btn {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    color: #ff4e50;
+    border: 2px solid #ff4e50;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 14px 74px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-bottom: 139px;
+>>>>>>> f881746a54e67c239fb73ae23b75867921f6186a
 }

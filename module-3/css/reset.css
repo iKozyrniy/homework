@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     margin: 0;
     padding: 0;
@@ -9,4 +10,17 @@
 a {
     text-decoration: none;
     color: #000;
+=======
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+>>>>>>> f881746a54e67c239fb73ae23b75867921f6186a
 }

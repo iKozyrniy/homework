@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header{
     display: flex;
     justify-content: space-between;
@@ -51,3 +52,58 @@
 
 
 }
+=======
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+    width: 1200px;
+    margin: 30px auto 112px auto;
+
+}
+
+
+
+.logo_link {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #95E1D3;
+}
+
+.menu  {
+    width: 490px;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.menu_item_link {
+    font-style: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #95E1D3;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+    
+}
+
+.menu_item_link:hover {
+    color: #f38181;
+    border-bottom: 3px solid #f38181;
+    
+
+
+    
+    
+
+
+}
+>>>>>>> f881746a54e67c239fb73ae23b75867921f6186a

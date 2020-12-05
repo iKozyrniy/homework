@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .main {
     width: 1200px;
     align-items: center;
@@ -283,4 +284,291 @@
     font-style: italic;
     font-family: 'Roboto', sans-serif;
     color: #999999;
+=======
+.main {
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 127px;
+}
+
+.services {
+
+}
+
+.work_with {
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    margin-bottom: 22px;
+    color: #333333;
+    margin-top: 75px;
+}
+
+.services_title {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333333;
+}
+
+.services_title::after {
+    content: "";
+    border-bottom: 3px solid #F38181 ; 
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 46px;
+    margin-top: 41px;
+}
+
+.wrapper_main_cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6{
+    display: flex;
+    width: 329px;
+    margin-bottom: 101px;
+}
+.card1::before  {
+    background: url('../img/ALARM@1X.png');
+    width: 32px;
+    height: 32px;
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+    margin-right: 29px;
+}
+
+.card2::before  {
+    background: url('../img/LINEGRAPH@1X.png');
+    width: 32px;
+    height: 32px;
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+    margin-right: 29px;
+}
+
+.card3::before  {
+    background: url('../img/COMPUTEROK@1X.png');
+    width: 32px;
+    height: 32px;
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+    margin-right: 29px;
+}
+
+.card4::before  {
+    background: url('../img/BOOK2@1X.png');
+    width: 32px;
+    height: 32px;
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+    margin-right: 29px;
+
+}
+
+.card5::before  {
+    background: url('../img/HOME@1X.png');
+    width: 32px;
+    height: 32px;
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+    margin-right: 29px;
+}
+
+.card6::before  {
+    background: url('../img/IMAGE@1X.png');
+    width: 32px;
+    height: 32px;
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+    margin-right: 29px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 269px;
+}
+
+.subText {
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.img {
+    margin-right: 29px;
+    width: 33px;
+    height: 32px;
+}
+
+.we {
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    margin-bottom: 22px;
+    color: #333333;
+    margin-top: 75px;
+}
+
+.team_title {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333333;
+}
+
+.team_title::after {
+    content: "";
+    border-bottom: 3px solid #F38181 ; 
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 46px;
+    margin-top: 41px;
+}
+
+.par {
+    text-align: center;
+    color: #999999;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 90px;
+}
+
+.team {
+    margin: 20px auto;
+    text-align: center;
+    width: 1200px;
+    
+}
+
+.cards_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 380px;
+    
+}
+
+.card_container {
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team_photo {
+    width: 380px;
+    margin-bottom: 31px;
+}
+
+.card_container:hover > .team_photo {
+    transform: translate(-10px, -10px);
+    transition: 200ms linear;
+
+}
+
+.team_card_gradient {
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card_container:hover > .team_card_gradient {
+    top: -10px;
+    left: -10px;
+    transition: 200ms linear;
+    background: linear-gradient(rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8));
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+    box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+}
+
+.social {
+    display: none;
+    font-size: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 230px;
+}
+
+.card_container:hover .social {
+    display: block;
+}
+
+.social_link {
+    width: 56px;
+    height: 56px;
+    background-color: #fce38a;
+    display: inline-block;  
+    position: relative;
+    margin-right: 1px;
+}
+
+.social_link:last-child{
+    margin-right: 0;
+}
+
+.social_link:hover {
+    background-color: #95e1d3;
+}
+
+.social_icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+  
+.team_name {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 15px;
+}
+  
+.team_position {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+>>>>>>> f881746a54e67c239fb73ae23b75867921f6186a
 }
