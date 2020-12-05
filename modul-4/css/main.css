@@ -1,0 +1,161 @@
+.main {
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.services {
+
+}
+
+.work_with {
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    margin-bottom: 22px;
+    color: #333333;
+    margin-top: 75px;
+}
+
+.services_title {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333333;
+}
+
+.services_title::after {
+    content: "";
+    border-bottom: 3px solid #F38181 ; 
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 46px;
+    margin-top: 41px;
+}
+
+.cards {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 1148px;
+    flex-wrap: wrap;
+}
+
+.section {
+    display: flex;
+    align-items: flex-start;
+    width: 330px;
+    height: 69px;
+    margin-top: 66px; 
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 269px;
+}
+
+.subText {
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.img {
+    margin-right: 29px;
+    width: 33px;
+    height: 32px;
+}
+
+.we {
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    margin-bottom: 22px;
+    color: #333333;
+    margin-top: 75px;
+}
+
+.team {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333333;
+}
+
+.team::after {
+    content: "";
+    border-bottom: 3px solid #F38181 ; 
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 46px;
+    margin-top: 41px;
+}
+
+.par {
+    text-align: center;
+    color: #999999;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 90px;
+}
+
+
+
+.personal_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1200px;
+}
+  
+.card {
+    width: 380px;
+    margin-bottom: 82px;
+}
+
+
+
+ 
+  
+.personal_photo {
+    width: 380px;
+    height: auto;
+    margin-bottom: 31px;
+}
+  
+.name {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 15px;
+}
+  
+.work {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+}
