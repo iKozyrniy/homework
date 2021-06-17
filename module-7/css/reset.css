@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
     margin: 0;
     padding: 0;
@@ -18,25 +18,4 @@ button {
 
 li {
     list-style-type: none;
-=======
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
-    color: #000;
-}
-
-button {
-    outline: none;
-}
-
-li {
-    list-style-type: none;
->>>>>>> f881746a54e67c239fb73ae23b75867921f6186a
 } 
